@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /*colores*/
+    --soft-blue: #3366cc;
+    --black: #54595d;
+}
+html{
+    font-size: 62.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    width: 100%;
+}
+header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.central-logo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.title, .title2{
+    font-size: 3.8rem;
+    line-height: 3.4rem;
+    color: #000000;
+}
+.title{
+    position: relative;
+    left: 5px;
+}
+.title2{
+    position: relative;
+    right: 5px; 
+}
+.subtitile{
+    font-size: 1.3rem;
+    color: #000000;
+}
+main{
+    margin: 0 auto;
+}
+main .hr-main{
+    margin: 0 30px;
+    position: relative;
+    top: -120px;
+}
+.container{
+    margin-top: 15px;
+}
+.nav-container{
+    display: grid;
+    grid-template-columns: 10px repeat(7, 70px) 10px;
+    grid-template-rows: repeat(5, 65px);
+    justify-content: center;
+}
+.nav-container a{
+    text-decoration: none;
+}
+.container-div-nav {
+    text-align: center;
+}
+.container-div-nav strong{
+    font-size: 1.6rem;
+    color: var(--soft-blue);
+}
+.container-div-nav small{
+    font-size: 1.3rem;
+    margin: 0.5rem 0 0;
+    color: var(--black);
+}
+.container-div-nav .Text{
+    display: grid;
+}
+.container-div-nav:nth-of-type(1) {
+    grid-column: 3 / span 2;
+    justify-self: start;
+}
+.container-div-nav:nth-of-type(2) {
+    grid-column: 6 / span 2;
+    justify-self: end;
+}
+.container-div-nav:nth-of-type(3) {
+    grid-row: 2;
+    grid-column: 2 / span 2;
+    justify-self: start;
+}
+.container-div-nav:nth-of-type(4) {
+    grid-row: 2;
+    grid-column: 7 / span 2;
+    justify-self: end;
+}
+.container-div-nav:nth-of-type(5) {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    justify-self: start;
+}
+.container-div-nav:nth-of-type(6) {
+    grid-row: 3;
+    grid-column: 8 / span 3;
+    justify-self: end;
+}
+.container-div-nav:nth-of-type(7) {
+    grid-row: 4;
+    grid-column: 2 / span 2;
+    justify-self: start;
+}
+.container-div-nav:nth-of-type(8) {
+    grid-row: 4;
+    grid-column: 7 / span 2;
+    justify-self: end;
+}
+.container-div-nav:nth-of-type(9) {
+    grid-row: 5;
+    grid-column: 3 / span 2;
+    justify-self: start;
+}
+.container-div-nav:nth-of-type(10) {
+    grid-row: 5;
+    grid-column: 6 / span 2;
+    justify-self: end;
+}
+.imagen-logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -260px;
+    left: -20px;
+}
+.imagen-logo img{
+    width: 200px;
+    height: 183px;
+}
+.section-input{
+    width: 540px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.container-form{
+    display: flex;
+    width: 540px;
+    position: relative;
+    top: -150px;
+    left: 30px;
+}
+.container-input{
+    border: 1px solid #000000;
+    width: 395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-input input{
+    width: 337px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.container-input p{
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-input p .icono-flecha{
+    background-image: url('/retowikipedia/assets/icono-flecha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+.container-form button{
+    width: 55px;
+    background-color: var(--soft-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-form button .background-image{
+    background-image: url('https://e7.pngegg.com/pngimages/679/632/png-clipart-washington-d-c-email-business-hotel-organization-email-miscellaneous-angle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+.lengauje{
+    display: flex;
+    width: 540px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -110px;
+}
+.lengauje hr{
+    width: 120px;
+}
+.lengauje a{
+    width: 220px;
+    height: 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+}
+.lengauje .background-image-icono{
+    background-image: url('https://th.bing.com/th/id/OIP.OGnLdl4kwRR4W7_qHm1TTwAAAA?w=200&h=200&rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+.lengauje .background-image-flecha{
+    background-image: url('./assets/icono-flecha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+}
+.lengauje font{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--soft-blue);
+}
+footer{
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+.footer-section{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.footer-container-card{
+    display: grid;
+    margin: 0 80px;
+}
+.card-wiki{
+    display: flex;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.card-wiki img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+.card-wiki p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.card-wiki a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--soft-blue);
+}
+.card-w{
+    display: flex;
+    width: 350px;
+    background-color: #F8F9FA;
+}
+.card-w .imagen-w{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+.card-interno{
+    display: grid;
+}
+.card-w h2{
+    font-size: 1.4rem;
+    font-weight: bold;    
+}
+.card-w p{
+    font-size: 1.4rem;
+}
+.card-w img{
+    width: 80px;
+    height: 80px;
+}
+.container-cards{
+    display: grid;
+    min-width: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+}
+.cards{
+    display: flex;
+}
+.cards:hover{
+    cursor: pointer;
+    background-color: #F8F9FA;
+}
+.cards img{
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+.cards a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--soft-blue);
+}
+.cards p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+footer hr{
+    margin: 0 10px;
+}
+footer nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer ul{
+    display: flex;
+    gap: 10px;
+}
+footer ul .no-list{
+    width: 480px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+}
+footer ul a{
+    text-decoration: none;
+    color: var(--soft-blue);
+}
